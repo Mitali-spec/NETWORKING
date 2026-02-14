@@ -99,3 +99,12 @@ Devices get IP addresses from a DHCP server using the DHCP protocol.
 - Transport Layer: UDP
 - Server Port: 67
 - Client Port: 68
+
+### Mobile Network Addressing Observation
+
+- The mobile device receives its IPv4 address from a DHCP server.
+- MAC address randomization is used to protect user privacy.
+- The device maintains multiple IPv6 addresses, including:
+  - Global IPv6 address
+  - Temporary (privacy) IPv6 address
+  - Multicast IPv6 addresses for network communication
