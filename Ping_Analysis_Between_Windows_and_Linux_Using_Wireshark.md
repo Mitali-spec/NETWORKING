@@ -115,3 +115,10 @@ If devices receive IP addresses in the 192.168.1.x range, then 192.168.1.1 is ve
 However, this should always be verified by checking the network configuration.
 
 On Windows, this can be confirmed using the ipconfig command and looking for the Default Gateway field.
+
+### How Wi-Fi Connects to the Internet
+
+Wi-Fi provides wireless access to a local network (LAN).
+The local network is connected to the global network (Internet) through a router, which communicates with the Internet Service Provider (ISP).
+
+Device → Wi-Fi → Router → ISP → Internet
