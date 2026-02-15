@@ -108,3 +108,10 @@ Devices get IP addresses from a DHCP server using the DHCP protocol.
   - Global IPv6 address
   - Temporary (privacy) IPv6 address
   - Multicast IPv6 addresses for network communication
+
+##Understanding 192.168.x.x and the Default Gateway
+
+If devices receive IP addresses in the 192.168.1.x range, then 192.168.1.1 is very likely the router’s default gateway.
+However, this should always be verified by checking the network configuration.
+
+On Windows, this can be confirmed using the ipconfig command and looking for the Default Gateway field.
